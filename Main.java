@@ -27,7 +27,6 @@ public class Main {
                     Departament.printDepartments();
                     Departament departament = Departament.values()[Utils.inputInt("Podaj id działu: ")];
                     System.out.println("Wybrano dział: " + departament.getName());
-                    company.printEmployeesByDepartment(departament);
                 }
                 case 6 -> company.analyzeEmployees();
                 case 7 -> company.calculateTaxes();
